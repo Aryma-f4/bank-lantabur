@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--font-sans), Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+svg { flex-shrink: 0; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+::selection { background: #dce5c4; color: #283d32; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
